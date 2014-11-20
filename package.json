@@ -1,0 +1,11 @@
+{
+  "name": "NealRame-ui",
+  "theme": "ui",
+  "version": "0.5.0",
+  "description": "UI theme based on 'Minimal white UI theme'",
+  "repository": "https://github.com/williamtguerra/white-ui",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  }
+}
