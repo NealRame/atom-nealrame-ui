@@ -29,12 +29,12 @@
     line-height: @tab-height;
     color: @tab-text-color;
     padding-left: 9px;
-    margin-right: 3px;
-    border-right: @tab-border;
     border-left: @tab-border;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
     transition: color .1s ease-in;
+
+    &:last-child {
+        border-right: @tab-border;
+    }
 
     &, &:before {
       background: @tab-background-color;
