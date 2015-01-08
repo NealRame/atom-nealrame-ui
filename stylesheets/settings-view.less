@@ -1,0 +1,43 @@
+.settings-view {
+    .config-menu {
+        color: @ui-text-color;
+        .icon {
+            color: @ui-text-color;
+        }
+    }
+    .panels {
+        background-color: #e6e6e6;
+            .section-heading, .sub-section-heading {
+                color: lighten(@ui-text-color, 25%);
+            }
+            .available-package-view, .package-update-view {
+                color: @ui-text-color;
+                h4, h4 > a {
+                    color: @ui-site-color-2;
+                }
+                .stats {
+                    color: lighten(@ui-text-color, 50%);
+                }
+                .package-description {
+                    color: @ui-text-color;
+                }
+            }
+            label, .setting-title, .text, .form-control, .breadcrumb {
+                color: @ui-text-color;
+                li {
+                    color: @ui-text-color;
+                    a {
+                        color: lighten(@ui-text-color, 50%);
+                    }
+                }
+            }
+    }
+    .btn-group {
+        .btn {
+            color: @ui-text-color;
+        }
+        .btn, .btn:last-child {
+            border: 1px solid lighten(@ui-text-color, 50%);
+        }
+    }
+}
